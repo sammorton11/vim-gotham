@@ -131,10 +131,10 @@ call s:Col('Visual', '', 'base3')
 " Easy-to-guess code elements.
 call s:Col('Comment', 'blue')
 call s:Col('String', 'green')
-call s:Col('Number', 'orange')
-call s:Col('Statement', 'base5')
+call s:Col('Number', 'blue')
+call s:Col('Statement', 'blue')
 call s:Col('Special', 'orange')
-call s:Col('Identifier', 'base5')
+call s:Col('Identifier', 'blue')
 
 " Constants, Ruby symbols.
 call s:Col('Constant', 'magenta')
