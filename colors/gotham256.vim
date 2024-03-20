@@ -146,7 +146,7 @@ call s:Col('Statement', 'base5')
 call s:Col('Special', 'orange')
 
 " HERE was base5 now magenta
-call s:Col('Identifier', 'magenta')
+call s:Col('Identifier', 'base5')
 call s:Col('Function', 'cyan')
 
 
