@@ -147,6 +147,8 @@ call s:Col('Special', 'orange')
 
 " HERE was base5 now magenta
 call s:Col('Identifier', 'magenta')
+call s:Col('Function', 'cyan')
+
 
 " Constants, Ruby symbols.
 call s:Col('Constant', 'magenta')
