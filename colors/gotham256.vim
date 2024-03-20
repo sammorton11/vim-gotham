@@ -141,7 +141,7 @@ call s:Col('String', 'green')
 call s:Col('Number', 'orange')
 call s:Col('Function', 'base6')
 call s:Col('Operator', 'base6')
-call s:Col('Keyword', 'base4')
+call s:Col('Keyword', 'blue')
 
 call s:Col('Statement', 'base5')
 call s:Col('Identifier', 'base5')
