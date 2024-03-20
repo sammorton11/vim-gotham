@@ -117,8 +117,9 @@ let s:linenr_background = 'base1'
 " Everything starts here.
 call s:Col('Normal', 'base6', s:background)
 
-"Delete this - this is a test"
-call s:Col('Statement', 'magenta')
+"Delete this - this is a test
+call s:Col('Statement', 'orange')
+call s:Col('Identifier', 'blue')
 
 " Line, cursor and so on.
 call s:Col('Cursor', 'base1', 'base6')
@@ -138,8 +139,13 @@ call s:Col('Visual', '', 'base3')
 call s:Col('Comment', 'blue')
 call s:Col('String', 'green')
 call s:Col('Number', 'orange')
-call s:Col('Statement', 'base5')
+
+" HERE was base5 now its blue
+call s:Col('Statement', 'blue')
+
 call s:Col('Special', 'orange')
+
+" HERE
 call s:Col('Identifier', 'base5')
 
 " Constants, Ruby symbols.
