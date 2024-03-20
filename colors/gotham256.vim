@@ -117,6 +117,9 @@ let s:linenr_background = 'base1'
 " Everything starts here.
 call s:Col('Normal', 'base6', s:background)
 
+"Delete this - this is a test"
+call s:Col('Statement', 'magenta')
+
 " Line, cursor and so on.
 call s:Col('Cursor', 'base1', 'base6')
 call s:Col('CursorLine', '', 'base1')
