@@ -139,13 +139,11 @@ call s:Col('Visual', '', 'base3')
 call s:Col('Comment', 'blue')
 call s:Col('String', 'green')
 call s:Col('Number', 'orange')
-call s:Col('Function', 'base5')
+call s:Col('Function', 'base6')
 call s:Col('Operator', 'base6')
-call s:Col('Keyword', 'base6')
+call s:Col('Keyword', 'base5')
 
-" HERE was base5 now its base5
 call s:Col('Statement', 'base5')
-" HERE was base5
 call s:Col('Identifier', 'base5')
 
 call s:Col('Special', 'orange')
