@@ -140,14 +140,14 @@ call s:Col('Comment', 'blue')
 call s:Col('String', 'green')
 call s:Col('Number', 'orange')
 
-" HERE was base5 now its
-call s:Col('Statement', 'base5')
+" HERE was base5 now its base4
+call s:Col('Statement', 'base4')
 
 call s:Col('Special', 'orange')
 
 " HERE was base5 now magenta
 call s:Col('Identifier', 'base5')
-call s:Col('Function', 'cyan')
+call s:Col('Function', 'magenta')
 
 
 " Constants, Ruby symbols.
