@@ -140,8 +140,8 @@ call s:Col('Comment', 'blue')
 call s:Col('String', 'green')
 call s:Col('Number', 'orange')
 
-" HERE was base5 now its base4
-call s:Col('Statement', 'base4')
+" HERE was base5 now its base6
+call s:Col('Statement', 'base6')
 
 call s:Col('Special', 'orange')
 
